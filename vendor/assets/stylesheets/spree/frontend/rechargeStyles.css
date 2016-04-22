@@ -156,6 +156,22 @@ A{
 	#cart-detail .line-item .cart-item-image IMG{
 	    max-width:6em;
 		}
+	#cart-detail .line-item .cart-item-price{
+	    float:left;
+	    margin:0.2em 0;
+	    text-align:left;
+	    width:4.5em;
+		}
+	#cart-detail .line-item .cart-item-quantity{
+	    float:left;
+	    margin:0 0.5em;
+	    width:5.6em;
+		}
+	#cart-detail .line-item .cart-item-total{
+	    float:left;
+	    margin:0.2em 0;
+	    width:4.5em;
+		}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
