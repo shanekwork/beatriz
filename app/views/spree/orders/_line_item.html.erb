@@ -21,7 +21,7 @@
         <%= line_item_description_text(line_item.description) %>
       </span>
       <div class="cart-item-delete" data-hook="cart_item_delete">
-        <%= link_to Spree.t(:delete), content_tag(:span, '', class: 'glyphicon glyphicon-minus-sign'), '#', class: 'delete', id: "delete_#{dom_id(line_item)}" %>
+        <%= link_to content_tag(:span, '', class: 'glyphicon glyphicon-minus-sign'), '#', class: 'delete', id: "delete_#{dom_id(line_item)}" %>
       </div>
     </div>
     <div class="cart-item-description-right col-xs-12 col-md-5" data-hook="cart_item_description">
