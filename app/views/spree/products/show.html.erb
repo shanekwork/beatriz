@@ -39,19 +39,23 @@
       <div data-hook="product_right_part_wrap">
         <div id="product-description" data-hook="product_description">
           <h1 class="product-title" itemprop="name"><%= @product.name %></h1>
-		  <h4>Sku: <%= @product.ts_code %></h4>
-          <div class="well" itemprop="description" data-hook="description">
-            <%= product_description(@product) rescue Spree.t(:product_has_no_description) %>
-          </div>
-          
-          <h4>Machine Models</h4>
-          <div class="well" itemprop="after-fav">
-          	<%= @product.machine_models %>
-          </div>
-
-          <div id="cart-form" data-hook="cart_form">
-            <%= render :partial => 'cart_form' %>
-          </div>
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <h4>Sku: <%= @product.ts_code %></h4>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <div id="cart-form" data-hook="cart_form" class="col-xs-12 col-md-6">
+                <%= render :partial => 'cart_form' %>
+              </div>
+            </div>
+            <div class="well col-xs-12 col-md-12" itemprop="description" data-hook="description">
+              <%= product_description(@product) rescue Spree.t(:product_has_no_description) %>
+            </div>
+            <div class="well col-xs-12 col-md-12" itemprop="after-fav">
+              <h4>Machine Models</h4>
+              <%= @product.machine_models %>
+            </div>
+          </div>          
         </div>
 
         <%= render :partial => 'taxons' %>
