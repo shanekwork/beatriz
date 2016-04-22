@@ -16,7 +16,7 @@
           </div>
         </div>
       </div>
-      <div class="well col-xs-12 col-md-12" itemprop="after-fav">
+      <div class="well col-xs-12 col-md-12">
         <h4>Machine Models</h4>
         <%= @product.machine_models %>
       </div>
@@ -43,7 +43,7 @@
           </div>
 
           <div class="col-xs-12 col-md-6">
-            <div id="cart-form" data-hook="cart_form" class="col-xs-12 col-md-12">
+            <div id="cart-form" data-hook="cart_form" class="col-xs-12 col-md-12" itemprop="after-fav">
               <%= render :partial => 'cart_form' %>
             </div>
           </div>
