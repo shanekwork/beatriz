@@ -2,7 +2,9 @@
 <div class="cart-detail" id="cart-detail" data-hook>
   <div class="row">
     <div class="col-xs-12 col-md-8">
-      <%= render partial: 'spree/orders/line_item', collection: order_form.object.line_items, locals: { order_form: order_form } %>
+      <ul>
+        <li><%= render partial: 'spree/orders/line_item', collection: order_form.object.line_items, locals: { order_form: order_form } %></li>
+      </ul>
     </div>
     <div class="col-xs-12 col-md-4">
       <% if @order.adjustments.nonzero.exists? || @order.line_item_adjustments.nonzero.exists? || @order.shipment_adjustments.nonzero.exists? || @order.shipments.any? %>
