@@ -44,8 +44,8 @@
           <% end %>
         </div>
 
-        <div class="add-to-cart col-xs-12 col-md-12">
-          <div class="input-group" itemprop="after-fav">
+        <div class="add-to-cart col-xs-12 col-md-12" itemprop="after-fav">
+          <div class="input-group">
             <%= number_field_tag :quantity, 1, :class => 'title form-control', :min => 1 %>
             <span class="input-group-btn">
               <%= button_tag :class => 'btn btn-success', :id => 'add-to-cart-button', :type => :submit do %>
