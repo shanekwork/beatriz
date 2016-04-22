@@ -28,7 +28,7 @@
 
     <% if @product.price_in(current_currency) and !@product.price.nil? %>
       <div data-hook="product_price" class="col-xs-12 col-md-12">
-        <div id="product-price" class="col-xs-12 col-md-6">
+        <div id="product-price" class="col-xs-12 col-md-12">
           <div>
             <span class="lead price selling" itemprop="price">
               <%= display_price(@product) %>
@@ -44,9 +44,8 @@
           <% end %>
         </div>
 
-        <div class="add-to-cart col-xs-12 col-md-6">
-          <br/>
-          <div class="input-group">
+        <div class="add-to-cart col-xs-12 col-md-12">
+          <div class="input-group" itemprop="after-fav">
             <%= number_field_tag :quantity, 1, :class => 'title form-control', :min => 1 %>
             <span class="input-group-btn">
               <%= button_tag :class => 'btn btn-success', :id => 'add-to-cart-button', :type => :submit do %>

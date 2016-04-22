@@ -90,6 +90,29 @@ A{
 	#triple-top A IMG{
 		max-width:35em;
 		}
+.product-properties{
+    float:left;
+    margin:0 0 1em 0;
+    padding:0;
+    width:100%;
+	}
+	.product-properties .product-text-properties DIV{
+	    float:left;
+	    margin:0 0 0.3em;
+	    width:100%;
+		}
+		.product-properties .product-text-properties DIV SPAN{
+		    font-size:0.9em;
+			}
+.buy-block #cart-form #product-price{
+	margin:0 0 1em 0;
+	}
+	.buy-block #cart-form #product-price .price{
+		float:right;
+	    font-size:2em;
+	    line-height:1.1em;
+	    margin:0;
+		}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
