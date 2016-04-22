@@ -147,8 +147,10 @@ A{
     width:98%;
 	}
 #cart-detail .line-item{
+	border-bottom:1px dotted #000000;
     float:left;
     margin:0 0 1em 0;
+    padding:1em 0;
     width:100%;
 	}
 	#cart-detail .line-item .cart-item-image IMG{
