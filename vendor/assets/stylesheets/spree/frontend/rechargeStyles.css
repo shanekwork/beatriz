@@ -233,6 +233,13 @@ A{
 		    margin:1em 0 0 0;
 		    padding:0.5em 0 0 0;
 			}
+			#cart-detail .content-box-price .cart-total DIV{
+			    float:left;
+			    width:50%;
+				}
+			#cart-detail .content-box-price .cart-total .total-price{
+			    text-align:right;
+				}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){

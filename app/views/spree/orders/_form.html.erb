@@ -18,10 +18,10 @@
           <%= render "spree/orders/adjustments" %>
         <% end %>
         <div class="warning cart-total col-xs-12 col-md-12">
-          <div class="col-xs-6 col-md-6">
-            <h5><%= Spree.t(:total) %></h5>
+          <div class="total-label">
+            <h4><%= Spree.t(:total) %></h4>
           </div>
-          <div class="lead col-xs-6 col-md-6">
+          <div class="total-price">
             <%= order_form.object.display_total %>
           </div>
         </div>
