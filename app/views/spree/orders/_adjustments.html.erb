@@ -16,7 +16,7 @@
   <% @order.shipments.each do |shipment| %>
     <div>
       <h5><%= Spree.t(:shipping) %>: <%= shipment.shipping_method.name %></h5>
-      <h5><%= shipment.display_discounted_cost %></h5>
+      <h5 style="text-align:right;"><%= shipment.display_discounted_cost %></h5>
     </div>
   <% end %>
 

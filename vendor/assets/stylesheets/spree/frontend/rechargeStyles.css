@@ -190,6 +190,49 @@ A{
     padding:1em;
     width:32.333%;
 	}
+	#cart-detail .content-box-price{
+	    background:#ffffff;
+	    float:left;
+	    padding:1em;
+	    width:100%;
+		}
+		#cart-detail .content-box-price .cart-subtotal{
+		    margin:0 0 0.5em 0;
+		    padding:0;
+			}
+			#cart-detail .content-box-price .cart-subtotal DIV{
+			    float:left;
+			    width:50%;
+				}
+			#cart-detail .content-box-price .cart-subtotal DIV.price{
+			    text-align:right;
+				}
+		#cart-detail .content-box-price .cart-adjustments-header{
+		    float:left;
+		    margin:0;
+		    width:100%;
+			}
+			#cart-detail .content-box-price .cart-adjustments-header H5{
+			    border-bottom:1px solid #000;
+			    float:left;
+			    font-weight:bold;
+			    padding:0 0 0.3em 0;
+			    width:auto;
+				}
+		#cart-detail .content-box-price #cart_adjustments{
+		    float:left;
+		    width:100%;
+			}
+			#cart-detail .content-box-price #cart_adjustments H5{
+			    float:left;
+			    margin:0 0 0.5em 0;
+			    width:50%;
+				}
+		#cart-detail .content-box-price .cart-total{
+		    border-top:1px dotted #000000;
+		    margin:1em 0 0 0;
+		    padding:0.5em 0 0 0;
+			}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){

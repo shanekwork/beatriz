@@ -8,8 +8,12 @@
       <div class="content-box-price">
         <% if @order.adjustments.nonzero.exists? || @order.line_item_adjustments.nonzero.exists? || @order.shipment_adjustments.nonzero.exists? || @order.shipments.any? %>
           <div class="cart-subtotal col-xs-12 col-md-12">
-            <div><h5><%= Spree.t(:cart_subtotal, count: @order.line_items.sum(:quantity)) %></h5></div>
-            <div><h5><%= order_form.object.display_item_total %></h5></div>
+            <div>
+              <h5><%= Spree.t(:cart_subtotal, count: @order.line_items.sum(:quantity)) %></h5>
+            </div>
+            <div class="price">
+              <h5><%= order_form.object.display_item_total %></h5>
+            </div>
           </div>
           <%= render "spree/orders/adjustments" %>
         <% end %>
