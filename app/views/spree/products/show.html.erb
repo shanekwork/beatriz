@@ -21,25 +21,19 @@
     <div class="col-md-8" data-hook="product_right_part">
       <div data-hook="product_right_part_wrap">
         <div id="product-description" data-hook="product_description">
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-              <h4>Sku: <%= @product.ts_code %></h4>
-              <div data-hook="product_properties">
-                <% render :partial => 'properties' %>
-                <div class="well cf">
-                  <div>
-                    <span><strong>Colour: </strong><%= @product.colour %></span>                    
-                  </div>
-                  <div>
-                    <span><strong>Page Yield: </strong><%= @product.page_yield %></span>
-                  </div>
-                </div>
-              </div>
 
+          <div class="row">
+            <div class="col-xs-12 col-md-6">              
+              <div data-hook="product_properties">
+                <span><strong>Sku: </strong><%= @product.ts_code %></span>
+                <span><strong>Colour: </strong><%= @product.colour %></span>
+                <span><strong>Page Yield: </strong><%= @product.page_yield %></span>
+              </div>
               <div data-hook="promotions">
                 <%= render :partial => 'promotions' %>
               </div>
             </div>
+
             <div class="col-xs-12 col-md-6">
               <div id="cart-form" data-hook="cart_form" class="col-xs-12 col-md-6">
                 <%= render :partial => 'cart_form' %>
