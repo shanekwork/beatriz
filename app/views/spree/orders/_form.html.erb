@@ -22,15 +22,15 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="links col-md-6 navbar-form pull-right text-right col-xs-12 col-md-4" data-hook="cart_buttons">
-      <div class="form-group">
-        <%= button_tag class: 'btn btn-primary', id: 'update-button' do %>
-          <%= Spree.t(:update) %>
-        <% end %>
-        <%= button_tag class: 'btn btn-lg btn-success', id: 'checkout-link', name: 'checkout' do %>
-          <%= Spree.t(:checkout) %>
-        <% end %>
+      <div class="links col-md-6 navbar-form pull-right text-right col-xs-12 col-md-4" data-hook="cart_buttons">
+        <div class="form-group">
+          <%= button_tag class: 'btn btn-primary', id: 'update-button' do %>
+            <%= Spree.t(:update) %>
+          <% end %>
+          <%= button_tag class: 'btn btn-lg btn-success', id: 'checkout-link', name: 'checkout' do %>
+            <%= Spree.t(:checkout) %>
+          <% end %>
+        </div>
       </div>
     </div>
   </div>
