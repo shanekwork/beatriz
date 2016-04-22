@@ -113,6 +113,13 @@ A{
 	    line-height:1.1em;
 	    margin:0;
 		}
+.buy-block #cart-form .add-to-cart{
+	margin:0 0 1em 0;
+	}
+	.buy-block #cart-form .add-to-cart .input-group{
+	    float:right;
+	    width:70%;
+		}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
