@@ -156,10 +156,22 @@ A{
 	#cart-detail .line-item .cart-item-image IMG{
 	    max-width:6em;
 		}
+	#cart-detail .line-item .cart-item-delete{
+	    float:left;
+	    width:100%;
+		}
+		#cart-detail .line-item .cart-item-delete A.delete{
+    		line-height:1.4em;
+			}
+			#cart-detail .line-item .cart-item-delete A.delete .glyphicon-minus-sign{
+			    float:left;
+			    font-size:1.3em;
+			    margin:0 0.5em 0 0;
+				}
 	#cart-detail .line-item .cart-item-price{
 	    float:left;
 	    margin:0.2em 0;
-	    text-align:left;
+	    text-align:right;
 	    width:4.5em;
 		}
 	#cart-detail .line-item .cart-item-quantity{
