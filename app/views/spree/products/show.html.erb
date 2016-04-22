@@ -25,9 +25,15 @@
           <div class="row">
             <div class="col-xs-12 col-md-6">              
               <div data-hook="product_properties">
-                <span><strong>Sku: </strong><%= @product.ts_code %></span>
-                <span><strong>Colour: </strong><%= @product.colour %></span>
-                <span><strong>Page Yield: </strong><%= @product.page_yield %></span>
+                <div>
+                  <span><strong>Sku: </strong><%= @product.ts_code %></span>
+                </div>
+                <div>
+                  <span><strong>Colour: </strong><%= @product.colour %></span>
+                </div>
+                <div>
+                  <span><strong>Page Yield: </strong><%= @product.page_yield %></span>
+                </div>
               </div>
               <div data-hook="promotions">
                 <%= render :partial => 'promotions' %>
