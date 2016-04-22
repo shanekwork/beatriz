@@ -146,6 +146,14 @@ A{
 	margin:0 1em;
     width:98%;
 	}
+#cart-detail .line-item{
+    float:left;
+    margin:0 0 1em 0;
+    width:100%;
+	}
+	#cart-detail .line-item .cart-item-image IMG{
+	    max-width:6em;
+		}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
