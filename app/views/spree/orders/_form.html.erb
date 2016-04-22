@@ -4,13 +4,12 @@
     <div class="col-xs-12 col-md-8">
       <%= render partial: 'spree/orders/line_item', collection: order_form.object.line_items, locals: { order_form: order_form } %>
     </div>
-    <div class="col-xs-12 col-md-4">
+    <div class="box-price col-xs-12 col-md-4">
       <% if @order.adjustments.nonzero.exists? || @order.line_item_adjustments.nonzero.exists? || @order.shipment_adjustments.nonzero.exists? || @order.shipments.any? %>
-        <tr class="cart-subtotal col-xs-12 col-md-12">
-          <td colspan="4" align='right'><h5><%= Spree.t(:cart_subtotal, count: @order.line_items.sum(:quantity)) %></h5></td>
-          <td colspan><h5><%= order_form.object.display_item_total %></h5></td>
-          <td></td>
-        </tr>
+        <div class="cart-subtotal col-xs-12 col-md-12">
+          <div><h5><%= Spree.t(:cart_subtotal, count: @order.line_items.sum(:quantity)) %></h5></div>
+          <div><h5><%= order_form.object.display_item_total %></h5></div>
+        </div>
         <%= render "spree/orders/adjustments" %>
       <% end %>
       <div class="warning cart-total col-xs-12 col-md-12">

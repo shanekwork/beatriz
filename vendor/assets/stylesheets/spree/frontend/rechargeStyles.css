@@ -185,6 +185,11 @@ A{
 	    margin:0.2em 0;
 	    width:4.5em;
 		}
+#cart-detail .box-detail{
+	background:#ebebeb;
+    padding:1em;
+    width:32.333%;
+	}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
