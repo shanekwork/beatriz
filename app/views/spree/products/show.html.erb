@@ -16,10 +16,6 @@
           </div>
         </div>
       </div>
-      <div class="well col-xs-12 col-md-12">
-        <h4>Machine Models</h4>
-        <%= @product.machine_models %>
-      </div>
     </div>
 
     <div class="col-md-8" data-hook="product_right_part">
@@ -35,6 +31,9 @@
               </div>
               <div>
                 <span><strong>Page Yield: </strong><%= @product.page_yield %></span>
+              </div>
+              <div>
+                <span><strong>Machine Models: </strong><%= @product.machine_models %></span>
               </div>
             </div>
             <div data-hook="promotions">
