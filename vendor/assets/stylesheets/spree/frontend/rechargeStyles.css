@@ -267,7 +267,7 @@ A{
 	}
 	#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-heading,
 	#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-heading{
-	    margin:0 0 1em 0;
+	    margin:0 0 1.5em 0;
 		}
 #checkout DIV[data-hook*="checkout_content"] #checkout-summary{
 	background:#ebebeb;
