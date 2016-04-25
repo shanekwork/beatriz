@@ -335,6 +335,13 @@ A{
 			right:1em;
 			top:0;
 			}
+	#cart-detail .line-item .cart-item-description-left{
+		margin:0 0 1em 0;
+		}
+	#cart-detail .box-price{
+		margin:0 1em;
+	    width:91.3%;
+		}
 	#footer-top LI{
 		font-size:0.8em;
 		}
