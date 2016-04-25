@@ -95,6 +95,10 @@ A{
 	#triple-top A IMG{
 		max-width:35em;
 		}
+#product-images #main-image{
+	border:none;
+	box-shadow:none;
+	}
 .product-properties{
     float:left;
     margin:0 0 1em 0;
