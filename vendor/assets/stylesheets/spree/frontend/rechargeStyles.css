@@ -247,6 +247,10 @@ A{
 			#cart-detail .content-box-price .cart-total .total-price{
 			    text-align:right;
 				}
+				#cart-detail .content-box-price .cart-total .total-label H4,
+				#cart-detail .content-box-price .cart-total .total-price H4{
+				    font-weight:bold;
+					}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
