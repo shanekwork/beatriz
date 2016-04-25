@@ -335,6 +335,10 @@ A{
 			right:1em;
 			top:0;
 			}
+	#cart-detail .line-item .cart-item-image{
+		margin:0 0 1em 0;
+		text-align:center;
+		}
 	#cart-detail .line-item .cart-item-description-left{
 		margin:0 0 1em 0;
 		}
