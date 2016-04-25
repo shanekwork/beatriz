@@ -99,6 +99,9 @@ A{
 	border:none;
 	box-shadow:none;
 	}
+	#product-images #main-image .panel-body{
+		padding:0;
+		}
 .product-properties{
     float:left;
     margin:0 0 1em 0;
