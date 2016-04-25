@@ -251,6 +251,32 @@ A{
 				#cart-detail .content-box-price .cart-total .total-price H4{
 				    font-weight:bold;
 					}
+#checkout DIV[data-hook*="checkout_progress"]{
+	margin:0 0 3em 0;
+	width:100%;
+	}
+#checkout DIV[data-hook*="checkout_content"] FORM .panel{
+	border:none;
+	}
+	#checkout DIV[data-hook*="checkout_content"] FORM .panel-body{
+		padding:0;
+		}
+#checkout DIV[data-hook*="checkout_content"] FORM #billing,
+#checkout DIV[data-hook*="checkout_content"] FORM #shipping{
+    box-shadow:none;
+	}
+#checkout DIV[data-hook*="checkout_content"] #checkout-summary{
+	background:#ebebeb;
+	}
+	#checkout DIV[data-hook*="checkout_content"] #checkout-summary H3{
+	    background:#ffffff;
+	    margin:0.6em 0 0 0;
+	    padding:1em 0.3em;
+		}
+	#checkout DIV[data-hook*="checkout_content"] TABLE{
+	    background:#ffffff;
+	    margin:0 0 1em 0!important;
+		}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
