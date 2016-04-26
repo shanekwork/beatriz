@@ -277,8 +277,6 @@ A{
 	}
 #checkout DIV[data-hook*="checkout_content"] #checkout-summary{
 	background:#ebebeb;
-	float:left;
-	width:100%;
 	}
 	#checkout DIV[data-hook*="checkout_content"] #checkout-summary H3{
 	    background:#ffffff;
@@ -292,6 +290,9 @@ A{
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
+	@viewport{
+		width:device-width;
+		}
 	TABLE{
 		display:block;
 		overflow-x:scroll;
@@ -336,6 +337,7 @@ A{
 		    font-size:1.5em;
 		    padding:0.9em 0.8em 0.95em 0.8em;
 		    position:relative;
+		    top:0;
 		    width:2.6em;
 		    z-index:999;
 			}
@@ -387,6 +389,15 @@ A{
 	#cart-detail .box-price{
 		margin:0 1em;
 	    width:91.3%;
+		}
+	#checkout .form-buttons SPAN[data-hook*="save_user_address"]{
+	    float:left;
+	    margin:0.3em 0 0 0;
+	    width:100%;
+		}
+	#checkout DIV[data-hook*="checkout_content"] #checkout-summary{
+		float:left;
+		width:100%;
 		}
 	#footer-top LI{
 		font-size:0.8em;
