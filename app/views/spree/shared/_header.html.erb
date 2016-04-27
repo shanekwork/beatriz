@@ -1,41 +1,39 @@
-<header id="header" class="col-xs-12 col-md-4" data-hook>
-  <div class="container">
-    <div class="row">
-      <div class="">
-        <span class="glyphicon glyphicon-menu-hamburger"></span>
-        <div class="navbar col-md-9">
-          <%= render :partial => 'spree/shared/nav_bar' %>
-          
-          <!--<div id="search-bar" class="col-md-3" data-hook>
-            <%= render :partial => 'spree/shared/search' %>
-          </div> -->
-        </div>
-      </div>
-
-      <div class="phone-box col-xs-12 col-md-12">
-        <i class="fa fa-phone"></i>
-        <% if @add.nil? %>
+<header id="header" class="col-xs-12 col-md-2" data-hook>
+  <div class="row">
+    <div class="">
+      <span class="glyphicon glyphicon-menu-hamburger"></span>
+      <div class="navbar col-md-9">
+        <%= render :partial => 'spree/shared/nav_bar' %>
         
-        <% else %>
-          Call us <%= @add.phone %>
-        <% end %>
+        <!--<div id="search-bar" class="col-md-3" data-hook>
+          <%= render :partial => 'spree/shared/search' %>
+        </div> -->
       </div>
+    </div>
 
-      <figure id="logo" class="col-xs-12 col-md-12" data-hook>
-        <%= logo %>
-      </figure>
+    <div class="phone-box col-xs-12 col-md-12">
+      <i class="fa fa-phone"></i>
+      <% if @add.nil? %>
       
-      <div id="link-to-cart" data-hook>
-        <noscript>
-          <%= link_to Spree.t(:cart), '/cart' %>
-        </noscript>
-        &nbsp;
-        <script>Spree.fetch_cart()</script>
-      </div>
+      <% else %>
+        Call us <%= @add.phone %>
+      <% end %>
+    </div>
 
-      <div class="main-menu col-xs-12 col-md-12">
-        <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
-      </div>
+    <figure id="logo" class="col-xs-12 col-md-12" data-hook>
+      <%= logo %>
+    </figure>
+    
+    <div id="link-to-cart" class="col-xs-12 col-md-12" data-hook>
+      <noscript>
+        <%= link_to Spree.t(:cart), '/cart' %>
+      </noscript>
+      &nbsp;
+      <script>Spree.fetch_cart()</script>
+    </div>
+
+    <div class="main-menu col-xs-12 col-md-12">
+      <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
     </div>
   </div>
 </header>
