@@ -17,8 +17,8 @@ A{
 	border-radius:0;
 	min-height:20em;
 	}
-#header {
-    background:#86be3d;
+#header{
+    background:#86be3d!important;
     height:100%;
     overflow-y:auto;
     position:fixed;
