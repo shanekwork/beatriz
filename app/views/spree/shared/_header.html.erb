@@ -23,11 +23,9 @@
       <noscript>
         <%= link_to Spree.t(:cart), '/cart' %>
       </noscript>
-      &nbsp;
+      <hr class="hr--small">
       <script>Spree.fetch_cart()</script>
     </div>
-
-    <hr class="hr--small">
 
     <div class="main-menu col-xs-12 col-md-12">
       <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
