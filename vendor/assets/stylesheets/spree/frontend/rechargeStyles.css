@@ -96,6 +96,15 @@ A{
 		    margin:15px auto 30px auto;
 		    width:20px;
 			}
+	#header .main-menu #main-nav-bar UL{
+		float:left;
+		width:100%;
+		}
+		#header .main-menu #main-nav-bar UL LI{
+			float:left;
+			text-align:center;
+			width:100%;
+			}
 #body-container{
     margin-top:6em;
 	}
