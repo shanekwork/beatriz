@@ -73,7 +73,7 @@ A{
 								}
 	#header .phone-box{
 		color:#ffffff;
-		font-size:1.4em;
+		font-size:1.2em;
 		margin:0 0 1em 0;
 		text-align:center;
 		}
@@ -91,6 +91,9 @@ A{
 		#header #link-to-cart A{
 			text-align:center;
 			}
+			#header #link-to-cart A SPAN.glyphicon-shopping-cart{
+				margin:0 0.3em 0 0;
+				}
 		#header .hr--small{
 			border:1px solid #72A530;
 		    margin:15px auto 30px auto;
@@ -112,7 +115,7 @@ A{
 				}
 				#header .main-menu #main-nav-bar UL LI A:hover{
 					background:none;
-					color:#000000;
+					color:#000000!important;
 					}
 #body-container{
     margin-top:6em;
