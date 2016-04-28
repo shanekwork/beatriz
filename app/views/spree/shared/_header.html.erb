@@ -22,11 +22,12 @@
     <div id="link-to-cart" class="col-xs-12 col-md-12" data-hook>
       <noscript>
         <%= link_to Spree.t(:cart), '/cart' %>
-        <hr class="hr--small">
       </noscript>
       &nbsp;
       <script>Spree.fetch_cart()</script>
     </div>
+
+    <hr class="hr--small">
 
     <div class="main-menu col-xs-12 col-md-12">
       <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>

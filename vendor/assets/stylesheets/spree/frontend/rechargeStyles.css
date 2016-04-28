@@ -90,8 +90,8 @@ A{
 		#header #link-to-cart A{
 			text-align:center;
 			}
-		#header #link-to-cart .hr--small{
-			border-width:2px 0 0 0;
+		#header .hr--small{
+			border-width:2px solid #ffffff;
 		    margin:15px auto 30px auto;
 		    width:20px;
 			}
