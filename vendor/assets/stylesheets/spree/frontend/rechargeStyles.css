@@ -58,6 +58,9 @@ A{
 			color:#ffffff!important;
 			padding:0.5em;
 			}
+			#top-nav-bar UL LI A:hover{
+				color:#000000!important;
+				}
 #search-bar FORM{
 	margin-right:0;
     padding:0;
