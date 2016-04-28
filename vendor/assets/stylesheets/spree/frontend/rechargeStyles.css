@@ -26,64 +26,70 @@ A{
     overflow-y:auto;
     position:fixed;
 	}
+	#header A{
+		color:#ffffff;
+		}
+		#header A:hover{
+			color:#000000;
+			}
+	#header .user-menu{
+		margin:0 0 2em 0;
+		}
+		#header .user-menu .navbar{
+			margin:0;
+			}
+			#top-nav-bar{
+				margin:0;
+				}
+				#top-nav-bar SPAN.glyphicon-menu-hamburger{
+					color:#ffffff;
+					cursor:pointer;
+					font-size:1.4em;
+					margin:0.5em 0 0.3em 0;
+					}
+				#top-nav-bar UL{
+					display:block;
+					margin-right:0;
+					width:100%;
+					}
+					#top-nav-bar UL #search-bar{
+						display:none;
+						}
+					#top-nav-bar UL LI{
+						border-top:1px solid #ffffff;
+						float:left;
+						width:100%;
+						}
+					#top-nav-bar UL LI:first-child{
+						border-top:none;
+						}
+						#top-nav-bar UL LI A{
+							color:#ffffff!important;
+							padding:0.5em;
+							}
+							#top-nav-bar UL LI A:hover{
+								background:none;
+								color:#000000!important;
+								}
+	#header .phone-box{
+		color:#ffffff;
+		margin:0 0 1em 0;
+		}
+		#header .phone-box .fa-phone{
+			color:#ffffff;
+			}
+	#header #logo{
+		margin:0 0 1em 0;
+		}
+	#link-to-cart{
+		text-align:center;
+		}
 #body-container{
     margin-top:6em;
 	}
 .admin_section,
 #spree-header .nav A{
     font-size:1em;
-	}
-#header .user-menu{
-	margin:0 0 2em 0;
-	}
-	#header .user-menu .navbar{
-		margin:0;
-		}
-		#top-nav-bar{
-			margin:0;
-			}
-			#top-nav-bar SPAN.glyphicon-menu-hamburger{
-				color:#ffffff;
-				cursor:pointer;
-				font-size:1.4em;
-				margin:0.5em 0 0.3em 0;
-				}
-			#top-nav-bar UL{
-				display:block;
-				margin-right:0;
-				width:100%;
-				}
-				#top-nav-bar UL #search-bar{
-					display:none;
-					}
-				#top-nav-bar UL LI{
-					border-top:1px solid #ffffff;
-					float:left;
-					width:100%;
-					}
-				#top-nav-bar UL LI:first-child{
-					border-top:none;
-					}
-					#top-nav-bar UL LI A{
-						color:#ffffff!important;
-						padding:0.5em;
-						}
-						#top-nav-bar UL LI A:hover{
-							background:none;
-							color:#000000!important;
-							}
-#header .phone-box{
-	color:#ffffff;
-	margin:0 0 1em 0;
-	}
-	#header .phone-box .fa-phone{
-		color:#ffffff;
-		}
-#header #logo{
-	margin:0 0 1em 0;
-	}
-#link-to-cart{
-	text-align:center;
 	}
 #search-bar FORM{
 	margin-right:0;
