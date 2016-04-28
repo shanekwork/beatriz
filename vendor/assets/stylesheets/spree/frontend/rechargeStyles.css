@@ -23,8 +23,8 @@ A{
     overflow-y:auto;
     position:fixed;
 	}
-#bodyContainer{
-    margin:6em 0 0 22.7em;
+#body-container{
+    margin-top:6em;
 	}
 .admin_section,
 #spree-header .nav A{
