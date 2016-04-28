@@ -1,3 +1,6 @@
+body{
+	font:1.2em/1.2 "Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
 P,
 A{
 	font-size:1.15em;
@@ -31,15 +34,30 @@ A{
     font-size:1em;
 	}
 #top-nav-bar SPAN.glyphicon-menu-hamburger{
+	color:#ffffff;
 	cursor:pointer;
+	font-size:1.4em;
 	}
 #top-nav-bar UL{
 	display:block;
 	margin-right:0;
+	width:100%;
 	}
 	#top-nav-bar UL #search-bar{
 		display:none;
 		}
+	#top-nav-bar UL LI{
+		border-top:1px solid #ffffff;
+		float:left;
+		width:100%;
+		}
+	#top-nav-bar UL LI:first-child{
+		border-top:none;
+		}
+		#top-nav-bar UL LI A{
+			color:#ffffff!important;
+			padding:0.5em;
+			}
 #search-bar FORM{
 	margin-right:0;
     padding:0;
