@@ -1,6 +1,6 @@
 <nav id="top-nav-bar" class="navbar col-md-5">
   <ul id="nav-bar" class="nav navbar-nav navbar-right" data-hook>
-    <li id="search-bar" data-hook>
+    <li id="admin-panel-link" data-hook>
     	<% if spree_current_user %>
 	      <% if spree_current_user.has_spree_role?("admin") %>
 	        <%= link_to "Admin Control", admin_path, class: 'admin_section' %>
