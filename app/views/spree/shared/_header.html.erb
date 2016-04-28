@@ -20,10 +20,8 @@
     </figure>
     
     <div id="link-to-cart" class="col-xs-12 col-md-12" data-hook>
-      <noscript>
         <%= link_to Spree.t(:cart), '/cart' %>
-      </noscript>
-      <hr class="hr--small">
+        <hr class="hr--small">
       <script>Spree.fetch_cart()</script>
     </div>
 
