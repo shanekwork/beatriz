@@ -357,8 +357,16 @@ footer{
 		}
 		#footer-top H3,
 		#footer-top UL A{
-			color:#000000;
+			color:#000000!important;
 			}
+		#footer-pages LI{
+		    float:left;
+		    margin:0 0 1em 0;
+		    width:33.3%;
+			}
+			#footer-pages LI A:hover{
+			    text-decoration:underline;
+				}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
