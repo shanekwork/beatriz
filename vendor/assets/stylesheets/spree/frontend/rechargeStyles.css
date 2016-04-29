@@ -360,6 +360,7 @@ footer{
 			color:#000000!important;
 			}
 		#footer-pages LI{
+			border:none;
 		    float:left;
 		    margin:0 0 1em 0;
 		    width:33.3%;
