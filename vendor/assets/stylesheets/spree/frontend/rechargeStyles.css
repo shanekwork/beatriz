@@ -128,38 +128,6 @@ A{
 	margin-right:0;
     padding:0;
 	}
-#header A.btn{
-	float:right;
-    padding:0 12px 0.05em 0;
-    width:11em;
-	}
-	#header A.btn SPAN{
-		background:#ec4445;
-	    color:#ffffff;
-	    float:left;
-	    font-size:1.25em;
-	    line-height:1em;
-	    padding:0.5em 0 0.3em 0;
-	    text-transform:uppercase;
-	    width:84.6%;
-		}
-		#header A.btn SPAN SPAN{
-			float:left;
-		    font-size:0.5em;
-		    padding:0;
-		    width:100%;
-			}
-	#header A.btn SPAN.glyphicon{
-		background:#ffffff;
-	    border:0.3em solid #ec4445;
-	    border-radius:2.5em;
-	    color:#ec4445;
-	    float:left;
-	    font-size:1.4em;
-	    margin:-1px 0 0 -1em;
-	    padding:0.3em;
-	    width:auto;
-		}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
@@ -380,6 +348,17 @@ A{
 	    background:#ffffff;
 	    margin:0 0 1em 0!important;
 		}
+footer{
+	background:none;
+	}
+	#footer-top{
+		color:#000000;
+		padding:0;
+		}
+		#footer-top H3,
+		#footer-top UL A{
+			color:#000000;
+			}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
