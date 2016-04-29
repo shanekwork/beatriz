@@ -359,6 +359,17 @@ footer{
 		#footer-top UL A{
 			color:#000000!important;
 			}
+		#footer-top .search-box{
+			text-align:center;
+			}
+			#footer-top .search-box .input-group INPUT{
+				display:block;
+    			margin:0 1em 0 0;
+				}
+			#footer-top .search-box .input-group SPAN{
+				display:block;
+    			margin:0 1em 0 0;
+				}
 		#footer-pages LI{
 			border:none;
 		    float:left;
