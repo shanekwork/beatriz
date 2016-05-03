@@ -10,8 +10,11 @@ A{
 		font-size:1em;
 		}
 .btn{
-    background:#ec4445!important;
+    background:#000000!important;
 	}
+	.btn:hover{
+	    background:#86be3d!important;
+		}
 .row-space{
 	margin:0 0 1.35em;
 	}
@@ -368,12 +371,12 @@ footer{
 			    text-align:center;
 				}
 				#footer-top .search-box .input-group INPUT{
-					display:block;
+					border-radius:4px;
+					display:inline;
 	    			margin:0 1em 0 0;
 					}
 				#footer-top .search-box .input-group SPAN{
-					display:block;
-	    			margin:0 1em 0 0;
+					display:inline;
 					}
 		#footer-pages LI{
 			border:none;
