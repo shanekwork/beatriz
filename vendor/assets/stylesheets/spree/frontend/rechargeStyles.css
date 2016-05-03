@@ -411,19 +411,22 @@ footer{
 				text-align:center;
 				}
 				#footer-bottom UL LI{
-					border-right:1px solid #000000;
+					border-right:1px solid #949494;
 				    display:inline;
 				    list-style:none;
 				    margin:0 0 0 0.5em;
 				    padding:0 0.5em 0 0;
+					}
+				#footer-bottom UL LI:last-child{
+					border-right:none;
 					}
 					#footer-bottom UL LI A{
 						color:#949494;
 						font-size:1em;
 						}
 						#footer-bottom UL LI A:hover{
-							color:#000000;
-							text-decoration:underline;
+							color:#000000!important;
+							text-decoration:underline!important;
 							}
 
 /* Mobile devices */
