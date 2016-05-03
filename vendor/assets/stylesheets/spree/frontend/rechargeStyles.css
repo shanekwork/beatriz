@@ -362,14 +362,19 @@ footer{
 		#footer-top .search-box{
 			text-align:center;
 			}
-			#footer-top .search-box .input-group INPUT{
+			#footer-top .search-box .navbar-form{
 				display:block;
-    			margin:0 1em 0 0;
+			    float:none!important;
+			    text-align:center;
 				}
-			#footer-top .search-box .input-group SPAN{
-				display:block;
-    			margin:0 1em 0 0;
-				}
+				#footer-top .search-box .input-group INPUT{
+					display:block;
+	    			margin:0 1em 0 0;
+					}
+				#footer-top .search-box .input-group SPAN{
+					display:block;
+	    			margin:0 1em 0 0;
+					}
 		#footer-pages LI{
 			border:none;
 		    float:left;
