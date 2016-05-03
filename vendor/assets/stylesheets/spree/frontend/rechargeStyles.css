@@ -9,7 +9,8 @@ A{
 	P A{
 		font-size:1em;
 		}
-.btn{
+.btn,
+INPUT[type="submit"]{
     background:#000000!important;
 	}
 	.btn:hover{
@@ -159,6 +160,14 @@ A{
 	#triple-top A IMG{
 		max-width:35em;
 		}
+.sale HR,
+.featured HR,
+.latest HR{
+	border:none;
+	border-bottom:1px solid #333333;
+	text-transform:uppercase;
+	width:15em;
+	}
 #product-images #main-image{
 	border:none;
 	box-shadow:none;
@@ -421,7 +430,7 @@ footer{
 					border-right:none;
 					}
 					#footer-bottom UL LI A{
-						color:#949494;
+						color:#949494!important;
 						font-size:1em;
 						}
 						#footer-bottom UL LI A:hover{
