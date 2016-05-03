@@ -404,6 +404,27 @@ footer{
 		    line-height:1.25em;
     		margin:0 0 0.5em 0;
 			}
+		#footer-bottom{
+			border-top:none;
+			}
+			#footer-bottom UL{
+				text-align:center;
+				}
+				#footer-bottom UL LI{
+					border-right:1px solid #000000;
+				    display:inline;
+				    list-style:none;
+				    margin:0 0 0 0.5em;
+				    padding:0 0.5em 0 0;
+					}
+					#footer-bottom UL LI A{
+						color:#949494;
+						font-size:1em;
+						}
+						#footer-bottom UL LI A:hover{
+							color:#000000;
+							text-decoration:underline;
+							}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
