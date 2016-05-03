@@ -376,8 +376,11 @@ footer{
 	    			margin:0 1em 0 0;
 					}
 				#footer-top .search-box .input-group SPAN{
-					display:inline;
+					display:block;
 					}
+					#footer-top .search-box .input-group SPAN INPUT{
+						margin:0;
+						}
 		#footer-pages LI{
 			border:none;
 		    float:left;
