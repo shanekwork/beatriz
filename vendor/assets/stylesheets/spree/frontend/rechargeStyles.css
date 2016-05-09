@@ -202,11 +202,6 @@ INPUT[type="submit"]{
 		font-size:0.85em;
 		font-weight:bold;
 		}
-		.sale .thumbnail:hover .caption P > A,
-		.featured .thumbnail:hover .caption P > A,
-		.latest .thumbnail:hover .caption P > A{
-			color:#272727;
-			}
 	.sale .thumbnail .caption P > BUTTON,
 	.featured .thumbnail .caption P > BUTTON,
 	.latest .thumbnail .caption P > BUTTON{		
@@ -215,7 +210,7 @@ INPUT[type="submit"]{
 		.sale .thumbnail:hover .caption P > BUTTON,
 		.featured .thumbnail:hover .caption P > BUTTON,
 		.latest .thumbnail:hover .caption P > BUTTON{
-			background:#86be3d;
+			background:#86be3d!important;
 			}
 #product-images #main-image{
 	border:none;
