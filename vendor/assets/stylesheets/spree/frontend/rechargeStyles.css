@@ -462,6 +462,9 @@ footer{
 			#footer-top .foot-contact P A{
 				color:#272727!important;
 				}
+				#footer-top .foot-contact P A:hover{
+					text-decoration:underline;
+					}
 		#footer-bottom{
 			border-top:none;
 			}
