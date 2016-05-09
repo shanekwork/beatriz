@@ -168,25 +168,35 @@ INPUT[type="submit"]{
 	text-transform:uppercase;
 	width:15em;
 	}
-.sale .thumbnail .caption H4 A,
-.featured .thumbnail .caption H4 A,
-.latest .thumbnail .caption H4 A{
-	color:#888888;
-	font-size:0.85em;
+.sale .thumbnail .caption H4,
+.featured .thumbnail .caption H4,
+.latest .thumbnail .caption H4{
+	margin:1em 0;
 	}
-	.sale .thumbnail .caption H4 A:hover,
-	.featured .thumbnail .caption H4 A:hover,
-	.latest .thumbnail .caption H4 A:hover{
-		color:#272727;
-		text-decoration:underline;
+	.sale .thumbnail .caption H4 A,
+	.featured .thumbnail .caption H4 A,
+	.latest .thumbnail .caption H4 A{
+		color:#888888;
+		font-size:0.85em;
 		}
-.sale .thumbnail .caption P > A,
-.featured .thumbnail .caption P > A,
-.latest .thumbnail .caption P > A{
-	color:#86be3d;
-	font-size:0.8em;
-	font-weight:bold;
+		.sale .thumbnail .caption H4 A:hover,
+		.featured .thumbnail .caption H4 A:hover,
+		.latest .thumbnail .caption H4 A:hover{
+			color:#272727;
+			text-decoration:underline;
+			}
+.sale .thumbnail .caption P,
+.featured .thumbnail .caption P,
+.latest .thumbnail .caption P{
+	margin:0 0 1.5em 0;
 	}
+	.sale .thumbnail .caption P > A,
+	.featured .thumbnail .caption P > A,
+	.latest .thumbnail .caption P > A{
+		color:#86be3d;
+		font-size:0.85em;
+		font-weight:bold;
+		}
 #product-images #main-image{
 	border:none;
 	box-shadow:none;
