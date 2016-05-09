@@ -186,7 +186,7 @@ INPUT[type="submit"]{
 		}
 		.sale .thumbnail:hover .caption H4 A,
 		.featured .thumbnail:hover .caption H4 A,
-		.latest .thumbnail:hover.caption H4 A{
+		.latest .thumbnail:hover .caption H4 A{
 			color:#272727;
 			text-decoration:underline;
 			}
