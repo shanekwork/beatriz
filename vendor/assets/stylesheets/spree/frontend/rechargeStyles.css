@@ -184,9 +184,9 @@ INPUT[type="submit"]{
 		color:#888888;
 		font-size:0.85em;
 		}
-		.sale .thumbnail:hover .caption H4 A:hover,
-		.featured .thumbnail:hover .caption H4 A:hover,
-		.latest .thumbnail:hover.caption H4 A:hover{
+		.sale .thumbnail:hover .caption H4 A,
+		.featured .thumbnail:hover .caption H4 A,
+		.latest .thumbnail:hover.caption H4 A{
 			color:#272727;
 			text-decoration:underline;
 			}
@@ -202,9 +202,9 @@ INPUT[type="submit"]{
 		font-size:0.85em;
 		font-weight:bold;
 		}
-		.sale .thumbnail:hover .caption P > A:hover,
-		.featured .thumbnail:hover .caption P > A:hover,
-		.latest .thumbnail:hover .caption P > A:hover{
+		.sale .thumbnail:hover .caption P > A,
+		.featured .thumbnail:hover .caption P > A,
+		.latest .thumbnail:hover .caption P > A{
 			color:#272727;
 			}
 	.sale .thumbnail .caption P > BUTTON,
@@ -212,9 +212,9 @@ INPUT[type="submit"]{
 	.latest .thumbnail .caption P > BUTTON{		
 		font-size:1.3em;
 		}
-		.sale .thumbnail:hover .caption P > BUTTON:hover,
-		.featured .thumbnail:hover .caption P > BUTTON:hover,
-		.latest .thumbnail:hover .caption P > BUTTON:hover{
+		.sale .thumbnail:hover .caption P > BUTTON,
+		.featured .thumbnail:hover .caption P > BUTTON,
+		.latest .thumbnail:hover .caption P > BUTTON{
 			background:#86be3d;
 			}
 #product-images #main-image{
