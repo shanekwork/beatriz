@@ -60,23 +60,7 @@
 		  	mode: 'vertical',
 		  	slideMargin: 5
 		});
-
-		// Resize page height depending on screen height
-			resizeDiv();
 	});
-</script>
-
-<script>
-// Resize page height depending on screen height
-	window.onresize = function(event){
-		resizeDiv();
-	}
-
-	function resizeDiv(){
-		vpw = $(window).width();
-		vph = $(window).height();
-		$("#body-container").css({"height": vph + "px"});
-	}
 </script>
 
 <%= yield :head %>

@@ -130,6 +130,9 @@ INPUT[type="submit"]{
 #body-container{
     margin-top:6em;
 	}
+	#content{
+		min-height:15.5em;
+		}
 .admin_section,
 #spree-header .nav A{
     font-size:1.15em;
