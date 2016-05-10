@@ -160,58 +160,66 @@ INPUT[type="submit"]{
 	#triple-top A IMG{
 		max-width:35em;
 		}
-.sale HR,
-.featured HR,
-.latest HR{
+.content-products .bx-viewport{
 	border:none;
-	border-bottom:1px solid #333333;
-	text-transform:uppercase;
-	width:15em;
+    box-shadow:none;
+    left:0;
 	}
-.sale .thumbnail:hover,
-.featured .thumbnail:hover,
-.latest .thumbnail:hover{
-	border:1px solid #86be3d;
-	}
-.sale .thumbnail .caption H4,
-.featured .thumbnail .caption H4,
-.latest .thumbnail .caption H4{
-	margin:1em 0;
-	}
-	.sale .thumbnail .caption H4 A,
-	.featured .thumbnail .caption H4 A,
-	.latest .thumbnail .caption H4 A{
-		color:#888888;
-		font-size:0.85em;
+	.content-products UL.bxslider{
+		padding:0;
 		}
-		.sale .thumbnail:hover .caption H4 A,
-		.featured .thumbnail:hover .caption H4 A,
-		.latest .thumbnail:hover .caption H4 A{
-			color:#272727;
-			text-decoration:underline;
+		.sale HR,
+		.featured HR,
+		.latest HR{
+			border:none;
+			border-bottom:1px solid #333333;
+			text-transform:uppercase;
+			width:15em;
 			}
-.sale .thumbnail .caption P,
-.featured .thumbnail .caption P,
-.latest .thumbnail .caption P{
-	margin:0 0 1.5em 0;
-	}
-	.sale .thumbnail .caption P > A,
-	.featured .thumbnail .caption P > A,
-	.latest .thumbnail .caption P > A{
-		color:#86be3d;
-		font-size:0.85em;
-		font-weight:bold;
-		}
-	.sale .thumbnail .caption P > BUTTON,
-	.featured .thumbnail .caption P > BUTTON,
-	.latest .thumbnail .caption P > BUTTON{		
-		font-size:1.3em;
-		}
-		.sale .thumbnail:hover .caption P > BUTTON,
-		.featured .thumbnail:hover .caption P > BUTTON,
-		.latest .thumbnail:hover .caption P > BUTTON{
-			background:#86be3d!important;
+		.sale .thumbnail:hover,
+		.featured .thumbnail:hover,
+		.latest .thumbnail:hover{
+			border:1px solid #86be3d;
 			}
+		.sale .thumbnail .caption H4,
+		.featured .thumbnail .caption H4,
+		.latest .thumbnail .caption H4{
+			margin:1em 0;
+			}
+			.sale .thumbnail .caption H4 A,
+			.featured .thumbnail .caption H4 A,
+			.latest .thumbnail .caption H4 A{
+				color:#888888;
+				font-size:0.85em;
+				}
+				.sale .thumbnail:hover .caption H4 A,
+				.featured .thumbnail:hover .caption H4 A,
+				.latest .thumbnail:hover .caption H4 A{
+					color:#272727;
+					text-decoration:underline;
+					}
+		.sale .thumbnail .caption P,
+		.featured .thumbnail .caption P,
+		.latest .thumbnail .caption P{
+			margin:0 0 1.5em 0;
+			}
+			.sale .thumbnail .caption P > A,
+			.featured .thumbnail .caption P > A,
+			.latest .thumbnail .caption P > A{
+				color:#86be3d;
+				font-size:0.85em;
+				font-weight:bold;
+				}
+			.sale .thumbnail .caption P > BUTTON,
+			.featured .thumbnail .caption P > BUTTON,
+			.latest .thumbnail .caption P > BUTTON{		
+				font-size:1.3em;
+				}
+				.sale .thumbnail:hover .caption P > BUTTON,
+				.featured .thumbnail:hover .caption P > BUTTON,
+				.latest .thumbnail:hover .caption P > BUTTON{
+					background:#86be3d!important;
+					}
 #product-images #main-image{
 	border:none;
 	box-shadow:none;
