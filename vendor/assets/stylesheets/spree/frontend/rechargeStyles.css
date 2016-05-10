@@ -543,7 +543,8 @@ footer{
 	    top:-13.5em;
 	    width:100%;
 		}
-		#top-nav-bar SPAN.glyphicon-menu-hamburger{
+		#top-nav-bar SPAN.glyphicon-menu-hamburger,
+		#top-nav-bar SPAN.glyphicon-remove{
 			background:#4f4f4f;
 		    color: #ffffff;
 		    cursor:pointer;
@@ -555,8 +556,9 @@ footer{
 		    width:2.6em;
 		    z-index:999;
 			}
-			#top-nav-bar SPAN.glyphicon-menu-hamburger:hover{
-			    color: #272727;
+			#top-nav-bar SPAN.glyphicon-menu-hamburger:hover,
+			#top-nav-bar SPAN.glyphicon-remove:hover{
+			    color:#272727;
 				}
 		#top-nav-bar UL{
 			display:none;
