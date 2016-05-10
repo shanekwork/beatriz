@@ -120,11 +120,13 @@ INPUT[type="submit"]{
 			width:100%;
 			}
 			#header .main-menu #main-nav-bar UL LI A{
+				font-size:1.25em;
 				font-weight:bold;
 				padding:0;
 				}
+				#header .main-menu #main-nav-bar UL LI A:focus,
 				#header .main-menu #main-nav-bar UL LI A:hover{
-					background:none;
+					background:none!important;
 					color:#000000!important;
 					}
 #body-container{
@@ -585,7 +587,9 @@ footer{
 			    color:#ffffff!important;
 			    margin:0 1em;
 				}
+				#top-nav-bar UL LI A:focus,
 				#top-nav-bar UL LI A:hover{
+					background:none!important;
 				    color:#ec4445!important;
 					}
 			#top-nav-bar UL LI:first-child A{
