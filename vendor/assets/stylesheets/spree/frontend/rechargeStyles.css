@@ -45,7 +45,8 @@ INPUT[type="submit"]{
 			#top-nav-bar{
 				margin:0;
 				}
-				#top-nav-bar SPAN.glyphicon-menu-hamburger{
+				#top-nav-bar SPAN.glyphicon-menu-hamburger,
+				#top-nav-bar SPAN.glyphicon-remove{
 					color:#ffffff;
 					cursor:pointer;
 					font-size:1.4em;
@@ -501,6 +502,9 @@ footer{
 							color:#000000!important;
 							text-decoration:underline!important;
 							}
+#toTop A:hover {
+    background:#86be3d;
+	}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
