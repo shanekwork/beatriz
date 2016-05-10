@@ -39,15 +39,15 @@
 		$("#header span.glyphicon.glyphicon-menu-hamburger").click(function(){
 			//slide up all the link lists
 			$("#top-nav-bar ul").slideUp();
-			$("#header span.glyphicon.glyphicons-remove").removeClass("glyphicon-remove");
-			$("#header span.glyphicon").addClass("glyphicon-menu-hamburger");
-			$("#header span.glyphicon-menu-hamburger").css("color", "#ffffff");
+			$("#header #top-nav-bar span.glyphicon.glyphicons-remove").removeClass("glyphicon-remove");
+			$("#header #top-nav-bar span.glyphicon").addClass("glyphicon-menu-hamburger");
+			$("#header #top-nav-bar span.glyphicon-menu-hamburger").css("color", "#ffffff");
 			//slide down the link list below the h3 clicked - only if its closed
 			if(!$(this).next().is(":visible")){
 				$(this).next().slideDown();
-				$("#header span.glyphicon.glyphicon-menu-hamburger").removeClass("glyphicon-menu-hamburger");
-				$("#header span.glyphicon").addClass("glyphicon-remove");
-				$("#header span.glyphicon.glyphicon-remove").css("color", "#272727");
+				$("#header #top-nav-bar span.glyphicon.glyphicon-menu-hamburger").removeClass("glyphicon-menu-hamburger");
+				$("#header #top-nav-bar span.glyphicon").addClass("glyphicon-remove");
+				$("#header #top-nav-bar span.glyphicon.glyphicon-remove").css("color", "#272727");
 			}
 		});
 
