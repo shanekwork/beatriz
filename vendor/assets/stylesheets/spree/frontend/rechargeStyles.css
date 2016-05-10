@@ -152,14 +152,17 @@ INPUT[type="submit"]{
 #header #search-bar form{
 	display:block;
 	}
-#triple-top A{
-	float:left;
-    margin:0 0 0.7em;
-    width:100%;
+#triple-top{
+	margin-bottom:5em;
 	}
-	#triple-top A IMG{
-		max-width:35em;
+	#triple-top A{
+		float:left;
+	    margin:0 0 0.7em;
+	    width:100%;
 		}
+		#triple-top A IMG{
+			max-width:35em;
+			}
 .content-products .bx-viewport{
 	border:none;
     box-shadow:none;
@@ -414,6 +417,7 @@ INPUT[type="submit"]{
 		}
 footer{
 	background:none;
+	margin-top:5em;
 	}
 	#footer-top{
 		color:#000000;
