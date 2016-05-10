@@ -52,6 +52,10 @@ INPUT[type="submit"]{
 					font-size:1.4em;
 					margin:0 0 0.3em 0;
 					}
+					#top-nav-bar SPAN.glyphicon-menu-hamburger,
+					#top-nav-bar SPAN.glyphicon-remove{
+						color:#272727;
+						}
 				#top-nav-bar UL{
 					display:block;
 					margin-right:0;
