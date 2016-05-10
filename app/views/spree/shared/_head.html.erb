@@ -6,8 +6,10 @@
 <%= canonical_tag(current_store.url) %>
 <%= favicon_link_tag 'favicon.ico' %>
 <%= stylesheet_link_tag 'spree/frontend/all', media: 'screen' %>
+<%= stylesheet_link_tag 'spree/frontend/bxslider', media: 'screen' %>
 <%= csrf_meta_tags %>
 <%= javascript_include_tag 'spree/frontend/all' %>
+<%= javascript_include_tag 'spree/frontend/bxslider.min' %>
 <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
 <![endif]-->
@@ -41,6 +43,12 @@
 			if(!$(this).next().is(":visible")){
 				$(this).next().slideDown();
 			}
+		});
+
+		// Products home slider
+		$('.bxslider').bxSlider({
+		  mode: 'vertical',
+		  slideMargin: 5
 		});
 	});
 </script>
