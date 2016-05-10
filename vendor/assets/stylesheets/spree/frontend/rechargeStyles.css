@@ -417,7 +417,7 @@ INPUT[type="submit"]{
 		}
 footer{
 	background:none;
-	margin-top:5em;
+	margin-top:6em;
 	}
 	#footer-top{
 		color:#000000;
@@ -555,6 +555,9 @@ footer{
 		    width:2.6em;
 		    z-index:999;
 			}
+			#top-nav-bar SPAN.glyphicon-menu-hamburger:hover{
+			    color: #272727;
+				}
 		#top-nav-bar UL{
 			display:none;
 			background:#4f4f4f;
