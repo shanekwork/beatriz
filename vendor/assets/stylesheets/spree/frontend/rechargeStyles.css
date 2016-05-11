@@ -9,6 +9,12 @@ A{
 	P A{
 		font-size:1em;
 		}
+A{
+	color:#86be3d;
+	}
+	A:hover{
+		color:#272727;
+		}
 .btn,
 INPUT[type="submit"]{
     background:#272727!important;
@@ -23,6 +29,16 @@ INPUT[type="submit"]{
 	border:1px solid #c8cbcc;
 	border-radius:0;
 	min-height:20em;
+	}
+H1{
+	border-bottom:1px solid #333333;
+    color:#333333;
+    font-size:1.5em;
+    margin:1em auto 2em;
+    padding:0 0 0.9em;
+    text-align:center;
+    text-transform:uppercase;
+    width:11em;
 	}
 #header{
     background:#86be3d!important;
@@ -234,6 +250,16 @@ INPUT[type="submit"]{
 				.latest .thumbnail:hover .caption P > BUTTON{
 					background:#86be3d!important;
 					}
+#cart-detail .line-item .cart-item-description-left H4 A{
+	color:#888888;
+	font-size:0.95em;
+	}
+	#cart-detail .line-item .cart-item-description-left H4 A:hover{
+		color:#272727;
+		}
+#cart-detail .line-item .cart-item-description-left SPAN{
+	color:#272727;
+	}
 #product-images #main-image{
 	border:none;
 	box-shadow:none;
@@ -315,8 +341,11 @@ INPUT[type="submit"]{
 			    font-size:1.3em;
 			    margin:0 0.5em 0 0;
 				}
-	#cart-detail .line-item .cart-item-price{
+	#cart-detail .line-item .cart-item-price,
+	#cart-detail .line-item .cart-item-total{
+		color:#86be3d;
 	    float:left;
+	    font-size:1.6em;
 	    margin:0.2em 0;
 	    text-align:right;
 	    width:4.5em;
