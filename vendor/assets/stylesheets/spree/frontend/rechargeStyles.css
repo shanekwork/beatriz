@@ -301,14 +301,14 @@ h1.product-title{
 	    float:right;
 	    width:auto;
 		}
-		.buy-block #product-price .input-group INPUT{
+		.buy-block .add-to-cart .input-group INPUT{
 			border-radius:0;
 		    float:left;
 		    height:32px;
 		    margin:0 1em 0 0;
 		    width:auto;
 			}
-		.buy-block #product-price .input-group SPAN BUTTON{
+		.buy-block .add-to-cart .input-group SPAN BUTTON{
 			border-radius:0;
 		    float:left;
 		    margin:0 1em 0 0;
