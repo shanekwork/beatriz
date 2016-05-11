@@ -40,6 +40,9 @@ H1{
     text-transform:uppercase;
     width:11em;
 	}
+h1.product-title{
+	width:auto;
+	}
 #header{
     background:#86be3d!important;
     height:100%;
@@ -275,12 +278,30 @@ H1{
 	}
 	.product-properties .product-text-properties DIV{
 	    float:left;
-	    margin:0 0 0.3em;
+	    margin:0 0 0.5em;
 	    width:100%;
 		}
 		.product-properties .product-text-properties DIV SPAN{
-		    font-size:0.9em;
+		    font-size:1.1em;
+		    line-height:1.5em;
 			}
+	.product-properties .buy-block #product-price .price{
+		color:#86be3d;
+		font-size:1.6em;
+		}
+	.product-properties .buy-block #product-price .input-group INPUT{
+		border-radius:0;
+	    float:left;
+	    height:32px;
+	    margin:0 1em 0 0;
+	    width:auto;
+		}
+	.product-properties .buy-block #product-price .input-group SPAN BUTTON{
+		border-radius:0;
+	    float:left;
+	    margin:0 1em 0 0;
+	    width:auto;
+		}
 .buy-block #cart-form #product-price{
 	margin:0 0 1em 0;
 	}
@@ -295,7 +316,7 @@ H1{
 	}
 	.buy-block #cart-form .add-to-cart .input-group{
 	    float:right;
-	    width:70%;
+	    width:auto;
 		}
 .buy-block .favourite-product{
 	float:right;
@@ -315,6 +336,7 @@ H1{
 	    width:auto;
 		}
 #product-description .well{
+	line-height:1.5em;
 	margin:0 1em;
     width:98%;
 	}
