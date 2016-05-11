@@ -303,7 +303,7 @@ h1.product-title{
 	    width:auto;
 		}
 		.buy-block .add-to-cart .input-group INPUT{
-			border-radius:0;
+			border-radius:4px;
 		    float:right;
 		    height:32px;
 		    margin:0 1em 0 0;
