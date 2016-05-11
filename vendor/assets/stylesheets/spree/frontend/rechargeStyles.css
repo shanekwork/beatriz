@@ -285,29 +285,12 @@ h1.product-title{
 		    font-size:1.1em;
 		    line-height:1.5em;
 			}
-	.product-properties .buy-block #product-price .price{
-		color:#86be3d;
-		font-size:1.6em;
-		}
-	.product-properties .buy-block #product-price .input-group INPUT{
-		border-radius:0;
-	    float:left;
-	    height:32px;
-	    margin:0 1em 0 0;
-	    width:auto;
-		}
-	.product-properties .buy-block #product-price .input-group SPAN BUTTON{
-		border-radius:0;
-	    float:left;
-	    margin:0 1em 0 0;
-	    width:auto;
-		}
 .buy-block #cart-form #product-price{
 	margin:0 0 1em 0;
 	}
 	.buy-block #cart-form #product-price .price{
 		float:right;
-	    font-size:2em;
+	    font-size:1.7em;
 	    line-height:1.1em;
 	    margin:0;
 		}
@@ -318,6 +301,19 @@ h1.product-title{
 	    float:right;
 	    width:auto;
 		}
+		.buy-block #product-price .input-group INPUT{
+			border-radius:0;
+		    float:left;
+		    height:32px;
+		    margin:0 1em 0 0;
+		    width:auto;
+			}
+		.buy-block #product-price .input-group SPAN BUTTON{
+			border-radius:0;
+		    float:left;
+		    margin:0 1em 0 0;
+		    width:auto;
+			}
 .buy-block .favourite-product{
 	float:right;
 	margin:0 0 1em 0;
