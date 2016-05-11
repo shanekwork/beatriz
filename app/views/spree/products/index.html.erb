@@ -24,7 +24,7 @@
 <% else %>
 
   <% @products.each do |product| %>
-    <div style="border: 1px groove #999; border-radius: 5px;" class="row">
+    <div class="row product-item">
       <div class="col-md-3">
           <%= image_tag('http://ts.liveofficedata.co.uk/' + product.image_url, class: 'target_image') %>
       </div>
