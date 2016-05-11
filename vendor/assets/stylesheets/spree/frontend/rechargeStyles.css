@@ -35,7 +35,8 @@ INPUT[type="submit"]{
 .text-primary{
 	color:#272727;
 	}
-H1{
+H1,
+.H1{
 	border-bottom:1px solid #333333;
     color:#333333;
     font-size:1.5em;
@@ -44,6 +45,14 @@ H1{
     text-align:center;
     text-transform:uppercase;
     width:11em;
+	}
+H2,
+.H2{
+    font-size:1.3em;
+	}
+H3,
+.H3{
+    font-size:1.2em;
 	}
 h1.product-title{
 	width:auto;
