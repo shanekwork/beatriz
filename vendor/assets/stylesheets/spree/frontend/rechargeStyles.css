@@ -18,6 +18,7 @@ A{
 .btn,
 INPUT[type="submit"]{
     background:#272727!important;
+    color:#ffffff;
 	}
 	.btn:hover{
 	    background:#86be3d!important;
