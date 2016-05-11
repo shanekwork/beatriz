@@ -438,6 +438,12 @@ h1.product-title{
 				#cart-detail .content-box-price .cart-total .total-price H4{
 				    font-weight:bold;
 					}
+#checkout > .row DIV{
+	width:100%;
+	}
+#checkout .progress-steps LI.active > A{
+	background:#272727!important;
+	}
 #checkout DIV[data-hook*="checkout_progress"]{
 	margin:0 0 3em 0;
 	width:100%;
