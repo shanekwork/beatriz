@@ -438,7 +438,7 @@ h1.product-title{
 				#cart-detail .content-box-price .cart-total .total-price H4{
 				    font-weight:bold;
 					}
-#checkout > .row DIV{
+#checkout > .row > DIV{
 	width:100%;
 	}
 #checkout .progress-steps LI.active > A{
