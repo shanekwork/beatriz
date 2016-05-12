@@ -587,6 +587,7 @@ footer{
 							}
 #toTop A:hover {
     background:#86be3d;
+    border:1px solid #86be3d;
 	}
 
 /* Mobile devices */
