@@ -641,6 +641,9 @@ footer{
 			#header .main-menu #main-nav-bar UL{
 			    margin:0;
 				}
+	#cart-detail .box-price{
+		width:100%;
+		}
 	FOOTER{
 	    margin-top:1em;
 		}
