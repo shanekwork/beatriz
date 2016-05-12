@@ -234,7 +234,7 @@ h1.product-title{
 				    width:auto;
 					}
 					#header .search-box .input-group SPAN INPUT:hover{
-						background:#686868;
+						background:#686868!important;
 						}
 .content-products .bx-viewport{
 	border:none;
