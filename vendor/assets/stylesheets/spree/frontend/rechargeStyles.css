@@ -653,6 +653,9 @@ footer{
 	    text-align:center;
 	    width:100%;
 		}
+	#checkout DIV[data-hook*="checkout_content"] #checkout-summary{
+	    padding:1em;
+		}
 	FOOTER{
 	    margin-top:1em;
 		}
