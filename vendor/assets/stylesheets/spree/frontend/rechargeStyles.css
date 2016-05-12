@@ -671,18 +671,23 @@ footer{
 			#header .main-menu #main-nav-bar UL{
 			    margin:0;
 				}
-			#header .search-box .input-group INPUT{
+			#header .search-box .input-group{
 				float:left;
-			    margin:0 1em 0 0;
-			    width:71.3%;
+			    width:100%;
 				}
-			#header .search-box .input-group SPAN{
-				float:left;
-    			width:auto;
-				}
-				#header .search-box .input-group SPAN INPUT{
-				    width:auto;
+				#header .search-box .input-group INPUT{
+					float:left;
+				    margin:0 1em 0 0;
+				    width:71.3%;
 					}
+				#header .search-box .input-group SPAN{
+					float:left;
+	    			width:auto;
+					}
+					#header .search-box .input-group SPAN INPUT{
+						margin:0;
+					    width:auto;
+						}
 	#cart-detail .box-price{
 		width:100%;
 		}
