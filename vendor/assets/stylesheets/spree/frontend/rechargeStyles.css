@@ -212,7 +212,7 @@ h1.product-title{
 		}
 		#header .search-box .navbar-form{
 			display:block;
-		    float:none!important;
+		    float:left!important;
 		    text-align:center;
 			}
 			#header .search-box .input-group INPUT{
