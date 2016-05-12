@@ -213,18 +213,24 @@ h1.product-title{
 		#header .search-box .navbar-form{
 			display:block;
 		    float:left!important;
+		    margin:0;
+		    padding:0;
 		    text-align:center;
 			}
 			#header .search-box .input-group INPUT{
 				border-radius:4px;
-				display:inline;
-				margin:0 1em 0 0;
+			    display:inline;
+			    margin:0 1em 0 0;
+			    width:auto;
 				}
 			#header .search-box .input-group SPAN{
 				display:block;
+				float:left;
+    			width:auto;
 				}
 				#header .search-box .input-group SPAN INPUT{
 					margin:0;
+					width:auto;
 					}
 .content-products .bx-viewport{
 	border:none;
