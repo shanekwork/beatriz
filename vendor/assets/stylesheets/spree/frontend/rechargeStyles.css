@@ -233,6 +233,9 @@ h1.product-title{
 				    text-align:center;
 				    width:auto;
 					}
+					#header .search-box .input-group SPAN INPUT:hover{
+						background:#686868;
+						}
 .content-products .bx-viewport{
 	border:none;
     box-shadow:none;
