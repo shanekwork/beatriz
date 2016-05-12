@@ -641,4 +641,17 @@ footer{
 			#header .main-menu #main-nav-bar UL{
 			    margin:0;
 				}
+	FOOTER{
+	    margin-top:1em;
+		}
+		#footer-pages LI{
+		    width:100%;
+			}
+			#footer-pages LI A{
+			    padding:0.2em 0;
+				}
+		#footer-bottom UL{
+		    padding:0;
+		    width:100%;
+			}
 }
