@@ -644,6 +644,15 @@ footer{
 	#cart-detail .box-price{
 		width:100%;
 		}
+	#checkout DIV[data-hook*="checkout_content"] FORM .well{
+		text-align:center;
+		}
+	#checkout_form_address .well SPAN[data-hook*="save_user_address"]{
+		float:left;
+	    margin:1em 0 0 0;
+	    text-align:center;
+	    width:100%;
+		}
 	FOOTER{
 	    margin-top:1em;
 		}
