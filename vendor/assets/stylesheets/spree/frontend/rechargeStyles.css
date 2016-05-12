@@ -632,4 +632,13 @@ footer{
 		    max-width:12em;
 		    width:auto;
 			}
+		#header .hr--small{
+		    margin:7px auto 15px auto;
+			}
+		#header .navbar{
+		    margin:0;
+			}
+			#header .main-menu #main-nav-bar UL{
+			    margin:0;
+				}
 }
