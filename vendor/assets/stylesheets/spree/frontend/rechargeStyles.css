@@ -207,6 +207,25 @@ h1.product-title{
 		#triple-top A IMG{
 			max-width:35em;
 			}
+	#header .search-box{
+		text-align:center;
+		}
+		#header .search-box .navbar-form{
+			display:block;
+		    float:none!important;
+		    text-align:center;
+			}
+			#header .search-box .input-group INPUT{
+				border-radius:4px;
+				display:inline;
+				margin:0 1em 0 0;
+				}
+			#header .search-box .input-group SPAN{
+				display:block;
+				}
+				#header .search-box .input-group SPAN INPUT{
+					margin:0;
+					}
 .content-products .bx-viewport{
 	border:none;
     box-shadow:none;
