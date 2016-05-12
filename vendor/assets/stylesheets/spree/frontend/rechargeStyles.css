@@ -221,15 +221,15 @@ h1.product-title{
 				border-radius:4px;
 			    display:inline;
 			    margin:0;
-			    width:auto;
+			    width:100%;
 				}
 			#header .search-box .input-group SPAN{
 				display:block;
 				float:left;
-    			width:auto;
+    			width:100%;
 				}
 				#header .search-box .input-group SPAN INPUT{
-					margin:1em 29.8%;
+					margin:1em 0;
 				    text-align:center;
 				    width:auto;
 					}
